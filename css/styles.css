@@ -775,7 +775,11 @@ ol {
   align-items: center;
   justify-content: center;
   margin-right: 8px;
-  stroke: transparent
+  fill: transparent;  
 }
+
+.modal-chek:checked + .user-privacy> .chek-bos-activ{background-color: #404BBF ;
+border: none;
+fill: #ffffff;}
 
 
