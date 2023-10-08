@@ -578,39 +578,40 @@ ol {
 }
 
 .foter-btn {
+  border: none;
+  min-width: 165px;
+  height: 40px;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
-  /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .footer-form {
   display: flex;
   gap: 24px;
+  margin-left: auto;
 }
 
+.footer-icon-form {
+  margin-left: 16px;
+}
 /** backdrop */
-
+/* 
 .backdrop {
   width: 408px;
   height: 584px;
   flex-shrink: 0;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
-}
-
-/* *backdrop */
-
-.backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -693,4 +694,4 @@ ol {
   left: 10;
   top: 50%;
   transform: translate translateY(-50%);
-}
+} */
