@@ -609,7 +609,10 @@ ol {
 }
 
 
-
+.foter-btn:hover,
+.foter-btn:focus {
+  background-color: #404bbf;
+}
 
 
 
@@ -723,6 +726,7 @@ ol {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #42352e;
 }
 
 .input:focus {
@@ -825,3 +829,8 @@ fill: #F4F4FD; ;}
   font-weight: 500;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
 
+  .modl-btn-submit:hover,
+  .modl-btn-submit:focus {
+    background-color: #404bbf;
+  }
+  
